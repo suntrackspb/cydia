@@ -1,0 +1,20 @@
+<package>
+	<id>ru.rj.ymplus</id>
+	<name>YM.Plus</name>
+	<version>0.4b</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>13.7</maxiOS>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Полный взлом на подписку Яндекс.Музыка</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
