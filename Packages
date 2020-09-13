@@ -1,0 +1,893 @@
+Package: com.arthurdapaz.smartsourceprompt
+Version: 0.1-60
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 114
+Depends: firmware (>= 7.0), mobilesubstrate, cydia (>= 1.1.19)
+Filename: ./debs/com.arthurdapaz.smartsourceprompt_0.1-60_iphoneos-arm.deb
+Size: 6118
+MD5sum: 50857841c5c1f999ffffc1bb52f638c5
+SHA1: 39f2655bdd9e37b3323c746aa9de79b37ad8b25f
+SHA256: b10f9d14535dc005e805add9fda0f8b94f71261dc112b78bcdaa2f6a3432f241
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smartsourcepromptDp
+Description: auto pasting for Cydia repo urls
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Author: Arthur da Paz <arthurdapaz@me.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smartsourcepromptDp
+Dev: arthurdapaz
+Name: SmartSourcePrompt
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cunstuck.locationfakerx
+Version: 2.4-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2621
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: org.thebigboss.locationchangerx, org.thebigboss.locationfaker8
+Filename: ./debs/com.cunstuck.locationfakerx_2.4-1_iphoneos-arm.deb
+Size: 1345448
+MD5sum: 2f1419ec63c93cde20989cd912846968
+SHA1: 9d0ee213a0aea47eeeaa45d5f09cacd39dcac220
+SHA256: 7c8fa8f1ff8c094ffba7db1ddcd3abd969b75740ae73d809ffac978e91d10cc0
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationfakerxDp
+Description: change your Location in any App
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: CUNSTUCK <cunstuck@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationfakerxDp
+Dev: cunstuck
+Icon: file:///Applications/LocationFakerX.app/AppIcon57x57@2x.png
+Name: LocationFakerX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.supermamon.newpackage
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (>7.0), mobilesubstrate
+Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
+Size: 854
+MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
+SHA1: 46bbcd314f5bcb29e05e287f08fe50e6547ea401
+SHA256: b01c426f4e262c901fd0a9dce060d89327af05bdbd203ce7527c133c1bc8cafd
+Section: Tweaks
+Description: This is a sample new package. Firmware should be greater than 7.0
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Name: New Package
+
+Package: com.supermamon.oldpackage
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Maintainer: Reposi3 <reposithree@gmail.com>
+Depends: firmware (<7.0)
+Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+SHA1: 44f945218a8f72e24ad69191bfee4a89bb7e9bc0
+SHA256: 2d0cf4ea9ddc1d1be3968c869ddd29bd850eae37ccd9b35d100f72b7aca62f8e
+Section: Tweaks
+Description: This is a sample old package. Firmware should be lower than 7.0
+Author: Reposi3 <reposithree@gmail.com>
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Name: Old Package
+
+Package: io.github.suntrackspb.BarcodeBrothers-ItsAFineDay.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.BarcodeBrothers-ItsAFineDay.m4r.deb
+Size: 726912
+MD5sum: d7fca6fb415e30ed7b79e892a280a80d
+SHA1: 6f77526e5e0a63632422b241d0e16f97a5f402b5
+SHA256: 0a9f76337041087efd2d29d6fe199c092ab922d788b7e2286809bc47ed4d4659
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=BarcodeBrothers-ItsAFineDay.m4r
+Description: BarcodeBrothers-ItsAFineDay.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=BarcodeBrothers-ItsAFineDay.m4r
+Name: BarcodeBrothers-ItsAFineDay.m4r Ringtone
+
+Package: io.github.suntrackspb.BarcodeBrothers-Sms.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.BarcodeBrothers-Sms.m4r.deb
+Size: 240948
+MD5sum: 1b4a79703dfc605e391b49d63c958d52
+SHA1: 54de50ee82106747572424afd0adde2811e8ade0
+SHA256: b1b8f2b9a43f73ef2112e1c49b79808217ef5bbd1af12cda13ad9c6c87695097
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=BarcodeBrothers-Sms.m4r
+Description: BarcodeBrothers-Sms.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=BarcodeBrothers-Sms.m4r
+Name: BarcodeBrothers-Sms.m4r Ringtone
+
+Package: io.github.suntrackspb.DavidGuetta-SexyBitch.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.DavidGuetta-SexyBitch.m4r.deb
+Size: 958732
+MD5sum: b1e86ade2ae7f451bb08687fd0121d42
+SHA1: 3d76939924feae53db55fa6e0b7d4f60159dc7cf
+SHA256: da413b192268f3576b98a8a8aafab206435a031a69d257995432eadf8094e4d1
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=DavidGuetta-SexyBitch.m4r
+Description: DavidGuetta-SexyBitch.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=DavidGuetta-SexyBitch.m4r
+Name: DavidGuetta-SexyBitch.m4r Ringtone
+
+Package: io.github.suntrackspb.Decl-Suchki.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.Decl-Suchki.m4r.deb
+Size: 1017396
+MD5sum: 0b32ed9919e47df3c30e7675377c00a9
+SHA1: 88dcf26d7c1fe6bdc350db55df01509286cf9f98
+SHA256: a1272b4f9bdf1e97d757da30b1967f6bc2f50f412df36e8cfeb15283670bdcb9
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Decl-Suchki.m4r
+Description: Decl-Suchki.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Decl-Suchki.m4r
+Name: Decl-Suchki.m4r Ringtone
+
+Package: io.github.suntrackspb.Karandash-Suka.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.Karandash-Suka.m4r.deb
+Size: 647060
+MD5sum: 2e93621b546feb007df1198c67de3d67
+SHA1: bc7230d80497d65bc86c1b22a22a39184e5a01b3
+SHA256: 38c01aed0cd35859a2e74fa98b9d1efde4035436558be43466e4bb9d52183ead
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Karandash-Suka.m4r
+Description: Karandash-Suka.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Karandash-Suka.m4r
+Name: Karandash-Suka.m4r Ringtone
+
+Package: io.github.suntrackspb.Lustra-Scotty.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.Lustra-Scotty.m4r.deb
+Size: 806060
+MD5sum: 2a0bc83af9f5a9625520d591dbc9dcc5
+SHA1: 70b1acfda8fc800f91a58af2b93dfe09ec55b4a8
+SHA256: d72be0b829fca97e8740266190d4e457d749b0f3bcda7d0aa37fbd419acc6022
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Lustra-Scotty.m4r
+Description: Lustra-Scotty.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Lustra-Scotty.m4r
+Name: Lustra-Scotty.m4r Ringtone
+
+Package: io.github.suntrackspb.Pendulum-Tarantula.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.Pendulum-Tarantula.m4r.deb
+Size: 625248
+MD5sum: cdc5166bd87f49d5e26849d9920fe879
+SHA1: 25ad45cf044291deecedca46445cb89249cd0760
+SHA256: bc425b0e45c2b54bd56cdae0fdb7148c3c52e241d2f4a857d202c06f7d19e19f
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Pendulum-Tarantula.m4r
+Description: Pendulum-Tarantula.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Pendulum-Tarantula.m4r
+Name: Pendulum-Tarantula.m4r Ringtone
+
+Package: io.github.suntrackspb.Recviem.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.Recviem.m4r.deb
+Size: 429108
+MD5sum: cec67f4ad88d1f37736316f1761d4703
+SHA1: 90adbad9ed4dfe288208e68b1ebae7c8c67d538b
+SHA256: 8e2a558b146bbaa4d4c25690109bf0113778b8de1288f94ef3e1d2153cbca06c
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Recviem.m4r
+Description: Recviem.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Recviem.m4r
+Name: Recviem.m4r Ringtone
+
+Package: nano
+Version: 4.5-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1264
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: ./debs/nano_4.5-1_iphoneos-arm.deb
+Size: 174454
+MD5sum: 57485372b26482c5af464f37c112d770
+SHA1: 6d21fe8b851a2a0cafc0739ebfd870395d5326c3
+SHA256: a174f328475b3c926c4074880cc1535873ed5ebb1b303c4aeeba38d4108306a9
+Section: Text_Editors
+Priority: standard
+Description: completely free, modern clone of Pico
+
+Package: ru.rejail.adgpro
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 114
+Depends: mobilesubstrate
+Filename: ./debs/ru.rejail.adgpro_0.0.1-2_iphoneos-arm.deb
+Size: 3768
+MD5sum: 4893d0f9887853c6669b62a5eefbf9bf
+SHA1: 1167d3dd07359e2512cd4957739c999eb1779f11
+SHA256: bbc0e232b87c8b4d21875a1aa04e42c0db61a5330b90450fc09ea6ca1d40095f
+Section: Tweaks
+Description: Хак AdGuard до Pro версии.
+Author: md.furman
+Depiction: https://rejail.ru/depiction.php?file=adgpro
+Name: AdGuard Pro Hack
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=adgpro
+
+Package: ru.rejail.answeringmachinex
+Version: 1.2-32
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2256
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-80), firmware (>= 11.0), ru.rejail.limneosos
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Filename: ./debs/ru.rejail.answeringmachinex_1.2-32_iphoneos-arm.deb
+Size: 493996
+MD5sum: f3e6d5b5af64d75310f5dad0ac39df46
+SHA1: 3ee163af5030feb1f8f9a62d62b3adda7e9e8125
+SHA256: 1f4643b548bc37bdb393563ee2669b5d2435881665b89c59aaecb3ef604e2783
+Section: Tweaks
+Description: Тонкая настройка автоответчика
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=answeringmachinex
+Icon: file:///Library/PreferenceBundles/AnsweringMachine.bundle/AnsweringMachine@2x.png
+Name: AnsweringMachineXS Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=answeringmachinex
+
+Package: ru.rejail.assistability13
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 540
+Depends: mobilesubstrate
+Filename: ./debs/ru.rejail.assistability13_0.0.1-1_iphoneos-arm.deb
+Size: 187456
+MD5sum: 0e7bd94317758708b00cf2eee0c8e129
+SHA1: b0c66c9fef2d5ff6f83132b7b449f4b919f80311
+SHA256: 86987e1248dba680ac8c4bd74455fe4046181a27c41752d848994620ffd8adf1
+Section: Tweaks
+Description: Функции AssistiveTouch в удобном доступе
+Author: DODGraphics
+Depiction: https://rejail.ru/depiction.php?file=assistability13
+Name: Assistability13 Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=assistability13
+
+Package: ru.rejail.audiorecorderxs
+Version: 3.5-32
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 21550
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0), ru.rejail.limneosos
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: ./debs/ru.rejail.audiorecorderxs_3.5-32_iphoneos-arm.deb
+Size: 2756688
+MD5sum: 7e11f2a6ea181a630cc405f844ba1d6f
+SHA1: d6758f93ff1de4c2b208c4fae31d0802704edc08
+SHA256: fccfa87517bf151783242296dd63333b5349f16ca85c7c9f8954cbe6007e3bd2
+Section: Tweaks
+Description: Запись телефонных звонков
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=audiorecorderxs
+Name: AudioRecorder XS (iOS 12/13) Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=audiorecorderxs
+
+Package: ru.rejail.autotouch
+Version: 6.1.2k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 107265
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>> 1.0.6)
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/ru.rejail.autotouch_6.1.2k_iphoneos-arm.deb
+Size: 27811712
+MD5sum: 50c9bf266dac9613e343f743107981f8
+SHA1: b88123b52198aa0a8ee378ee648df0d3e6485fde
+SHA256: 4a926d7fa98f47bc908e5e29df535fa98c957b2a60d37347b8d9d8df21ecf3d0
+Section: Tweaks
+Priority: optional
+Description: Автокликер для iOS
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=autotouch
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Name: AutoTouch
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=autotouch
+
+Package: ru.rejail.betternetpremium
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 376
+Depends: mobilesubstrate
+Filename: ./debs/ru.rejail.betternetpremium_1.1_iphoneos-arm.deb
+Size: 22668
+MD5sum: 76b24745944221ab7881c069b40e7bf7
+SHA1: 16626cdf6159ee9e8916d6273052069165d38e70
+SHA256: 4eddb53570bd9079172231861f8f113d9f434c9102d265256eb37487bf3115ee
+Section: Tweaks
+Description: Премиум для Betternet VPN
+Author: stem grade
+Depiction: https://rejail.ru/depiction.php?file=betternetpremium
+Name: Betternet Premium
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=betternetpremium
+
+Package: ru.rejail.bioprotectxs
+Version: 4.4-49
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2133
+Depends: mobilesubstrate, preferenceloader, ru.rejail.limneosos
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/ru.rejail.bioprotectxs_4.4-49_iphoneos-arm.deb
+Size: 573402
+MD5sum: f3f1132632ac25b8fa408caddb1e9556
+SHA1: d3dfe574f895d923c63c3a335e4796b309833843
+SHA256: 58f41761b0ce70f82bb58cabd215b70e6e49cf194725c7a3f3d4a52d1f6ff9f2
+Section: Tweaks
+Description: Защитите свои приложения с Touch/Face ID
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Name: BioProtect XS (iOS 12/13) Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=bioprotectxs
+
+Package: ru.rejail.callbarxs
+Version: 3.2-143
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1556
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12), net.limneos.simpleactivationactions, ru.rejail.limneosos
+Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/ru.rejail.callbarxs_3.2-143_iphoneos-arm.deb
+Size: 276078
+MD5sum: ae051b16016bfb84d03c36d5b4b0f215
+SHA1: e6f9f7d442dd64dd4e97d2c9f116c973fce9fa41
+SHA256: 6b78a1f9bd448d6da30382e76b50cb614d0019d7cac440f431279002dca5132f
+Section: Tweaks
+Description: Минималистичный вид звонков
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=callbarxs
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Name: CallBar XS (iOS 12/13) Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=callbarxs
+
+Package: ru.rejail.callblocker
+Version: 2.0.3
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 474
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.callblocker_2.0.3_iphoneos-arm.deb
+Size: 53074
+MD5sum: e738ec223e10af5ce0358f48a554bc50
+SHA1: b9e2d4c17947e010a988705223ac655cd9b56606
+SHA256: edbe4cf2c016eca3b8b4d83f846f05f1cad5196b8c2072ba143695b891aab321
+Section: Tweaks
+Description: Блокировка звонков
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=callblocker
+Icon: file:///Library/Application Support/CallBlocker/icon.png
+Name: CallBlocker Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=callblocker
+
+Package: ru.rejail.cercube
+Version: 5.1.18k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 14948
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, ru.rejail.adblockplus
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
+Filename: ./debs/ru.rejail.cercube_5.1.18k_iphoneos-arm.deb
+Size: 4279932
+MD5sum: 735e4ea19d1b89a12e4b6e575ed24ade
+SHA1: 886980b3ccf4220f69461f000184266cf7a4818b
+SHA256: 50f0110d3ae142a41d4124d24f3010571aa3197f51a58ca81c693202bbbc3c78
+Section: Tweaks
+Priority: optional
+Description: Загрузка видео на YouTube и многое другое
+Author: Majd Alfhaily
+Depiction: https://rejail.ru/depiction.php?file=cercube
+Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
+Name: Cercube for YouTube
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=cercube
+
+Package: ru.rejail.cydown
+Version: 7.1.0
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 11125
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.cydown_7.1.0_iphoneos-arm.deb
+Size: 2582688
+MD5sum: 5d684a423553cf894022ee9b4e107dc2
+SHA1: 28d265ca5be9a81aaaf28d647d4c99e3432e9dc1
+SHA256: 2b7a75b54361d38ea70cf9cbd25e16f588f553c7ef6b980f82507e20a15ca894
+Section: Tweaks
+Description: Установка платных пакетов в Cydia бесплатно!
+Author: julioverne <julioverne@me.com>
+Depiction: https://rejail.ru/depiction.php?file=cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=cydown
+
+Package: ru.rejail.deletecontact10
+Version: 1.5.1-beta-5
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1112
+Depends: mobilesubstrate, preferenceloader, ru.rejail.libiarrays1
+Filename: ./debs/ru.rejail.deletecontact10_1.5.1-beta-5_iphoneos-arm.deb
+Size: 186798
+MD5sum: 767063c518cf7c8d6d6dcf026b51b693
+SHA1: a94bce1feeedf6f288183ccef2c851b6a3c64b78
+SHA256: f77073f0a16421890adbc714f5364639a69f689cd53140a59f0d79d8a380be32
+Section: Tweaks
+Description: Простое удаление контактов
+Author: IArrays <support@iarrays.com>
+Depiction: https://rejail.ru/depiction.php?file=deletecontact10
+Icon: file:////System/Library/PreferenceBundles/DeleteContactSettings.bundle/DeleteContact@2x.png
+Name: Delete Contact Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=deletecontact10
+
+Package: ru.rejail.dleasy
+Version: 2.8.6-2k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 10904
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, curl
+Filename: ./debs/ru.rejail.dleasy_2.8.6-2k_iphoneos-arm.deb
+Size: 3390736
+MD5sum: 03b5653865b2f33d7ce1b86eb9dc2cdc
+SHA1: 39fb63cd6c9d4ed4169436b48b1749e414e6bc86
+SHA256: 641f5e08249d71e67e698edd55fda258390dbdd60791954d6b0145b997793989
+Section: Tweaks
+Description: Загружайте изображения и видео из социальных сетей.
+Author: AhmedBafkir <prooxy0@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=dleasy
+Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
+Name: DLEasy Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=dleasy
+
+Package: ru.rejail.emojikey
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 449
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.emojikey_1.4_iphoneos-arm.deb
+Size: 45934
+MD5sum: 74d0807c7d7f52cdfdc4c2ab2587d230
+SHA1: 19881574a5fc969738a57b904fc69a5970738e1a
+SHA256: 9d011d04f3fb625be304f658d902f05f5ae80998476d6ab3a405c9cf842aef2c
+Section: Tweaks
+Priority: optional
+Description: Заменяет кнопку Диктовки клавишей Emoji 😃
+Author: fidele007 <kforcefidele@yahoo.com>
+Depiction: https://rejail.ru/depiction.php?file=emojikey
+Icon: file:///Library/PreferenceBundles/EmojiKeyPref.bundle/EmojiKeyPref@2x.png
+Name: EmojiKey Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=emojikey
+
+Package: ru.rejail.eztweaklist
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 133
+Depends: firmware (>= 9.0), mobilesubstrate, dpkg, cydia
+Filename: ./debs/ru.rejail.eztweaklist_1.0.1-1_iphoneos-arm.deb
+Size: 17296
+MD5sum: 668ecb5258921fc8b546a988d7648100
+SHA1: 91bef2df28aa36502aec10953dce447b5b9dfe6c
+SHA256: 5ad701f7ddc3bf273644e2adf35f89beadaf8a0e5aaae746e86abce9d4362cc1
+Section: Tweaks
+Description: Экспорт списка ваших твиков
+Author: TheComputerWhisperer <actualcomputerwhisperer@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=eztweaklist
+Name: EZTweakList
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=eztweaklist
+
+Package: ru.rejail.filza
+Version: 3.8.0-20k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 28305
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/ru.rejail.filza_3.8.0-20k_iphoneos-arm.deb
+Size: 10139764
+MD5sum: 18adeb186b39dc27f9375fb612f10cca
+SHA1: 16599a7fc141fba1a81ed9354128194dc43c6e59
+SHA256: d0f65d9c3c702eadd2b6e2d45518cb3d9136546e5263f5d3eaa7ae0e258c7000
+Section: Utilities
+Description: Файловый менеджер для iOS
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Name: Filza File Manager
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=filza
+
+Package: ru.rejail.foxforthack
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 425
+Filename: ./debs/ru.rejail.foxforthack_0.0.2_iphoneos-arm.deb
+Size: 39348
+MD5sum: be73d414fb5e4b400c17102e742591ba
+SHA1: 371dc39a089145e4b48cba3d334219993b8608ed
+SHA256: b53b6166a8484052d9f4ac613c7a25f0cf7fbe05662bf0ec87e5ec8e6623cdda
+Section: Tweaks
+Priority: optional
+Description: Взлом для всех твиков Foxfort
+Author: ReJail <rejail@rejail.ru>
+Depiction: https://rejail.ru/depiction.php?file=foxforthack
+Name: FoxfortHack
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=foxforthack
+
+Package: ru.rejail.icleanerpro
+Version: 7.8.3k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 24161
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/ru.rejail.icleanerpro_7.8.3k_iphoneos-arm.deb
+Size: 6648536
+MD5sum: 32c7fecb53350f1b76a3588c02964ac0
+SHA1: 43f2685c308c1589529ae4be61a879ad40a263e5
+SHA256: a0dc78ce4ad6420a334c5a59018847653af758cf63b9ed60073be78ffedc8826
+Section: Utilities
+Description: Утилита iCleanerPro аналог CCleaner для PC
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: https://rejail.ru/depiction.php?file=icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=icleanerpro
+
+Package: ru.rejail.icontweak
+Version: 1.0.9k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 642
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.badgecleaner2, com.flex2areo.apptools, com.rpetrich.iconrenamer, org.ioshack.icontool
+Replaces: com.ichitaso.icontweak
+Filename: ./debs/ru.rejail.icontweak_1.0.9k_iphoneos-arm.deb
+Size: 108018
+MD5sum: cb04e785d21cc1a08663537365822c04
+SHA1: 1f4583ece22f4c23a1961cc9e15c002ffaacd407
+SHA256: 5b6e57b0489cec6b1863aff75190644d6b631cc0ad98df27ab0d4b776b9cd896
+Section: Tweaks
+Description: Управление приложением свайпом по иконке
+Author: ichitaso <willfeeltips+ict@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=icontweak
+Icon: file:///Library/PreferenceBundles/IconTweakSettings.bundle/icon@2x.png
+Name: IconTweak
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=icontweak
+
+Package: ru.rejail.killbackground13
+Version: 1.0.4k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 695
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Conflicts: tw.garynil.swipehome, com.ichitaso.killbackground9, com.ichitaso.killbackground10, com.ichitaso.killbackground11, com.ichitaso.killbackgroundxs, com.julioverne.sbcard, com.cemck.killx-pro, com.cemck.killx
+Replaces: com.ichitaso.killbackground13
+Filename: ./debs/ru.rejail.killbackground13_1.0.4k_iphoneos-arm.deb
+Size: 97226
+MD5sum: 9d0aff4e082b3564b2dc0ceda94b05f5
+SHA1: c80d14e2d065fb3d39eac8b34b367dac0aedbe6c
+SHA256: aa22ca5a0db9a61ab801b01931f9f9070ca8059f819c09aae8b088be2ad7ad50
+Section: Tweaks
+Description: Простое закрытие всех приложений в многозадачности
+Author: ichitaso <willfeeltips+kb13@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=killbackground13
+Icon: file:///Library/PreferenceBundles/KillBackgroundSettings.bundle/KB_icon@2x.png
+Name: KillBackground13 Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=killbackground13
+
+Package: ru.rejail.libertylite
+Version: 0.2.10
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 453
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty
+Filename: ./debs/ru.rejail.libertylite_0.2.10_iphoneos-arm.deb
+Size: 46834
+MD5sum: 47d3c447c89a5e1ce1f20a79ae44ec67
+SHA1: 3f4087f71231eb550ab4b495dc92978f91bb87fc
+SHA256: 2e175e18549bcbcd0210edac99fa9c3f9ea93085fc0bfec5598f8d586d3aadfd
+Section: Tweaks
+Description: Скрываем джейлбрейк от банковских приложений
+Author: Ryley Angus
+Depiction: https://rejail.ru/depiction.php?file=libertylite
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=libertylite
+
+Package: ru.rejail.limneosos
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: ./debs/ru.rejail.limneosos_2.0.2_iphoneos-arm.deb
+Size: 23914
+MD5sum: c05187b63fd20b1260221b66ebb9429e
+SHA1: e8803f96b302fef53f9ad0a62efb4634cc3de62a
+SHA256: eccecbc1c5f0bdffad4157514f80268cec2c8ffb67115d1e045cd401eafaf67f
+Section: Tweaks
+Priority: optional
+Description: Название само говорит за себя
+Author: ReJail <rejail@rejail.ru>
+Depiction: https://rejail.ru/depiction.php?file=limneosos
+Name: Limneosos
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=limneosos
+
+Package: ru.rejail.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 235
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 42214
+MD5sum: a46eaf89eac53e47f960d0eff2f472c8
+SHA1: b0e5e78f51453279ee5a8397497813a24d81713f
+SHA256: ad177f8a833347b9f2520a1f136101dced59cf78cd643a31fb79e2859452e728
+Section: Tweaks
+Description: Взлом внутриигровых покупок
+Author: anondev
+Depiction: https://rejail.ru/depiction.php?file=localiapstore
+Name: LocalIAPStore
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=localiapstore
+
+Package: ru.rejail.magmaevo
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2044
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.opa334.ccsupport, com.spark.libsparkcolourpicker
+Conflicts: com.noisyflake.magma, com.noisyflake.magmapro
+Filename: ./debs/ru.rejail.magmaevo_2.0.4_iphoneos-arm.deb
+Size: 1419152
+MD5sum: b3600167205298eeae643f172c569287
+SHA1: 5166e67e12567af906a9922470156761d4758bac
+SHA256: f19b5804c6c75845043e112adcc8e08d700f958f8d962d99a9830ac70f61586f
+Section: Tweaks
+Description: Редизайн пункта управления
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://rejail.ru/depiction.php?file=magmaevo
+Icon: https://chariz.com/cdn/icon/magma-evo/icon@3x.png
+Name: Magma Evo Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=magmaevo
+
+Package: ru.rejail.mejor
+Version: 1.3k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 4892
+Depends: mobilesubstrate ,com.ouraigua.jodebox,ws.hbang.common
+Filename: ./debs/ru.rejail.mejor_1.3k_iphoneos-arm.deb
+Size: 1325876
+MD5sum: 22a19b1692f2cdcda1c633c2aaa0cff4
+SHA1: 3c7c2cfc8af94213d7142e532c1e954226deba20
+SHA256: c330457baa033c4773a5444b650275d34fc247faca49a21298c59a79c236e361
+Section: Tweaks
+Description: Дополнительные настройки для приложений
+Author: Azozz ALFiras
+Depiction: https://rejail.ru/depiction.php?file=mejor
+Icon: http://mejor.7it.co/images/icon@2x.png
+Name: Mejor Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=mejor
+
+Package: ru.rejail.pencilchargingindicator
+Version: 1.2~b7
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1385
+Depends: mobilesubstrate
+Filename: ./debs/ru.rejail.pencilchargingindicator_1.2~b7_iphoneos-arm.deb
+Size: 378278
+MD5sum: a63896b567ca12b1b403baceb4762096
+SHA1: 521196cd802b84be676e370d015d79a9eedc1f8a
+SHA256: 35887d925608b57ab40fbc17cca4f2e2c3e332b522797897ef17e85ac16e0a47
+Section: Tweaks
+Description: Уведомления о зарядке в стиле зарядки Apple Pencil
+Author: shiftcmdk
+Depiction: https://rejail.ru/depiction.php?file=pencilchargingindicator
+Name: PencilChargingIndicator Rus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=pencilchargingindicator
+
+Package: ru.rejail.rockethack
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 182
+Depends: me.alfhaily.rocket
+Conflicts: com.pulandres.cercube5pp
+Filename: ./debs/ru.rejail.rockethack_1.4_iphoneos-arm.deb
+Size: 10422
+MD5sum: a8eb05db6632248038549366ee9f4013
+SHA1: 1acda38c417122ad7c3a4a0367999b247f728289
+SHA256: 00105edc70d0a4a7b2872679cac1c6571e45ef032b7cd85d5b5feff1a7c00b72
+Section: Tweaks
+Description: Удаление рекламы в твике Rocket for Instagram
+Author: Pulandres
+Depiction: https://rejail.ru/depiction.php?file=rockethack
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Name: Rocket4Insta Crack
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=rockethack
+
+Package: ru.rejail.sberjailbilbreakbypass
+Version: 0.0-3-3
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 300
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ru.rejail.sberjailbilbreakbypass_0.0-3-3_iphoneos-arm.deb
+Size: 27180
+MD5sum: 3991daf6ab520160f782347b9b8c2b64
+SHA1: 19a11fd9e63638c2a85d1a3480b035e14dbc48d6
+SHA256: 4072a2deb426fefa34093d1a15a698badb42d6c49bfc5165347f02ebf7de90ca
+Section: Tweaks
+Description: Обход блокировки Сбербанка для iOS 12-13.
+Author: Gamzakov <justgamzakov@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=sberjailbilbreakbypass
+Name: SberbankBypass (iOS 12+)
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=sberjailbilbreakbypass
+
+Package: ru.rj.appstoreplusplus
+Version: 0.9.11
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2245
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/ru.rj.appstoreplusplus_0.9.11_iphoneos-arm.deb
+Size: 347770
+MD5sum: 6c90f8f521ace884573ca61022423a22
+SHA1: 523048ca526f04af091f0d63b0707a92146ef60b
+SHA256: 2389f5cfd50ffdf5f584f138ada32aad32c777ea432770798959ec107c81817d
+Section: Tweaks
+Priority: optional
+Description: Понижение версий приложений
+Author: CokePokes
+Depiction: https://rejail.ru/depiction.php?file=appstoreplusplus
+Name: AppStore++
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=appstoreplusplus
+
+Package: ru.rj.beta
+Version: 0.2.12
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 593
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Filename: ./debs/ru.rj.beta_0.2.12_iphoneos-arm.deb
+Size: 42452
+MD5sum: 84d3c55a3f78bb57055465da7095a358
+SHA1: db7f81f42dcdb4b3509cdd36003088ce2bb6e85a
+SHA256: 9b02b5850ac04124b95edbf6bc55456ebada3d0a8f04f12b2287cf3a7693f26b
+Section: Tweaks
+Description: Скрывает джейлбрейк от различных приложений (включая банковские)
+Author: Ryley Angus
+Depiction: https://rejail.ru/depiction.php?file=beta
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Name: Liberty Lite (Beta)
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=beta
+
+Package: ru.rj.boom
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 256
+Depends: mobilesubstrate
+Filename: ./debs/ru.rj.boom_0.0.1_iphoneos-arm.deb
+Size: 4934
+MD5sum: 96a1567fea3e3e50ec05846bbcf65d75
+SHA1: ad9aad2fd8de0f87cacbed5e1de0fdb3826b17ff
+SHA256: a8450fa4650c3df61f219f656fad38752b70fc55eb1551aafabb7d1e51f80478
+Section: Tweaks
+Description: Бум без рекламы и с фоновым прослушиванием
+Author: Alexandr_s <ipont4ss@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=boom
+Name: BOOM
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=boom
+
+Package: ru.rj.lowlightenhancement
+Version: 1.0.1-b9-1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 8046
+Depends: mobilesubstrate, opencv
+Filename: ./debs/ru.rj.lowlightenhancement_1.0.1-b9-1_iphoneos-arm.deb
+Size: 1443584
+MD5sum: 951aed686ed70a81ea599b154e14c3dd
+SHA1: 0e91df049b6bd824c1633ed0fb6cffc4fbed3228
+SHA256: 20adf11d09e7874062731c5434aaa930674123035cb120d15fe5456c32ff1b13
+Section: Tweaks
+Description: Режим низкой освещенности для камеры
+Author: XCXiao
+Depiction: https://rejail.ru/depiction.php?file=lowlightenhancement
+Name: Enlighten
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=lowlightenhancement
+
+Package: ru.rj.nlm
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 2
+Filename: ./debs/ru.rj.nlm_1.1_iphoneos-arm.deb
+Size: 2028
+MD5sum: c41ded43533ca1d1803e55c90081a742
+SHA1: 7752df9e7b21499186da3f00ecd9cc151c6c0d66
+SHA256: d8272cc5e135fa6edded2d0527fd41ee01f4f674ec9c5beccc9e370b9baf8531
+Section: Tweaks
+Description: Отключите заглушение музыки при входящих уведомлениях
+Author: Rishanan <rishanan1996@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=nlm
+Name: NeverLowerMusic
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=nlm
+
+Package: ru.rj.ymplus
+Version: 0.4b
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 114
+Depends: mobilesubstrate
+Filename: ./debs/ru.rj.ymplus_0.4b_iphoneos-arm.deb
+Size: 5260
+MD5sum: 424671e2bfc4b242e6218c91b41d4a18
+SHA1: e7b2b00d716a37bfa80ddfe8aff6f61bd555be5a
+SHA256: 79b56260c5e599c34b8c00f5b7fab845a6ff86197a1b021e387c4baa60e176eb
+Section: Tweaks
+Description: Полный взлом на подписку Яндекс.Музыка
+Author: Anonym0uz & mdfurman <gumenyuk.d@icloud.com>
+Depiction: https://rejail.ru/depiction.php?file=ymplus
+Name: YM.Plus
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=ymplus
+
+Package: ru.rj.yobunpro
+Version: 3.4.5k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 862
+Depends: mobilesubstrate
+Filename: ./debs/ru.rj.yobunpro_3.4.5k_iphoneos-arm.deb
+Size: 358876
+MD5sum: 58eefbff318568214cc65ac387d36ecb
+SHA1: 03ea249bf6e5d711cac5140e56c386df0679167b
+SHA256: c3a0bbb62ae6e52fdde43482a41eb6954e924dff52bc1f181aa9530d6f641109
+Section: Tweaks
+Description: Управление процессами вашего устройства
+Author: Plat-Ykor <plat-ykor@libero.it>
+Depiction: https://rejail.ru/depiction.php?file=yobunpro
+Icon: icon.png
+Name: Yobun Pro
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=yobunpro
+
