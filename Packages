@@ -1,3 +1,44 @@
+Package: applist
+Version: 1.5.16
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
+Size: 105098
+MD5sum: af1bdc77dd1805c249d416fa96957841
+SHA1: 843d2b873ad29a848c701af51f2e8a524770bc3a
+SHA256: b20901679ecd9a607636dd69d1c42fe074f6a3e8a5c21c20ecef893f1a9a4a7e
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Dev: rpetrich
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
+Package: ca.btraas.appfirewall
+Version: 1.3c
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1614
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 10.0), com.rpetrich.rocketbootstrap (>= 1.0.3), applist, preferenceloader
+Filename: ./debs/ca.btraas.appfirewall_1.3c_iphoneos-arm.deb
+Size: 229300
+MD5sum: 98c8d7f3075f065ba204d0b7412edf33
+SHA1: 34a86b9142e673415edbf6d92cc213f0f837df26
+SHA256: a3f057f5a7a8a45313da42ff8eb8cd832750084b6bebb6927c39a40e0933aae9
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appfirewallDp
+Description: Take control of your phone's network activity! Block ads, tracking and analytics to save battery and limit data usage.
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Brayden Traas <btraas@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=appfirewallDp
+Dev: btraas
+Icon: file:///Library/PreferenceBundles/appfirewall_preferences.bundle/icon@2x.png
+Name: App Firewall (iOS 10-13)
+
 Package: com.arthurdapaz.smartsourceprompt
 Version: 0.1-60
 Architecture: iphoneos-arm
@@ -43,6 +84,138 @@ Icon: file:///Applications/LocationFakerX.app/AppIcon57x57@2x.png
 Name: LocationFakerX
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.dave1482.powerapp
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: Dave1482 <dave1482@dave1482.com>
+Pre-Depends: firmware (>= 8.0), system-cmds, shell-cmds, coreutils
+Conflicts: com.dave1482.powerappbeta
+Filename: ./debs/com.dave1482.powerapp_6.0_iphoneos-arm.deb
+Size: 411682
+MD5sum: 491e00e0988b57d6b54e50131001ed6e
+SHA1: 7a6567dbf322e7dc9b5569b41f96b5ffe6bb9269
+SHA256: 94ac9ae7b124a9c20252c3c19dcd31e2170855549164187b8088e1e428c3d427
+Section: Utilities
+Description: Reboot, Shutdown, Respring, go into Safemode
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15
+Author: Dave1482 <dave1482@dave1482.com>
+Depiction: https://powerapp.dave1482.com/
+Icon: file:///Applications/PowerApp.app/Icon-60.png
+Name: PowerApp
+
+Package: com.foxfort.foxforttools
+Version: 1.1.5
+Architecture: iphoneos-arm
+Maintainer: FoxfortMobile
+Installed-Size: 2296
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.0.18), com.rpetrich.rocketbootstrap (>> 1.0.6)
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools, com.hackyouriphone.mgspoof, org.mr.mgspoof
+Filename: ./debs/com.foxfort.foxforttools_1.1.5_iphoneos-arm.deb
+Size: 540802
+MD5sum: 52e2322d2f838f314a33bce4ba759b06
+SHA1: c3a9be74d5ea841a9fe0c188f2358125e6d4f2f8
+SHA256: d54d7a3410696905ddc60fc8365b71ef2a5ba5c3d174552fe8154257613864bc
+Section: System
+Description: Helper tools for Foxfort tweaks
+Tag: role::developer
+Author: FoxfortMobile
+Name: FoxFort Tools
+
+Package: com.foxfort.libfoxfortutils
+Version: 1.0.23
+Architecture: iphoneos-arm
+Maintainer: FoxfortMobile
+Installed-Size: 4400
+Depends: firmware (>= 11.0), com.rpetrich.rocketbootstrap (>> 1.0.6)
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof
+Filename: ./debs/com.foxfort.libfoxfortutils_1.0.23_iphoneos-arm.deb
+Size: 731978
+MD5sum: 85cdeb614ee9c55c9d328c0fff436103
+SHA1: aa4027dda488642841bc65ed83d5e67e487ebed8
+SHA256: e2727c9a0b7451a06fef2487a2d93987f0374555c78ea60ff8674d520c270fbe
+Section: System
+Description: Basic utilities for Foxfort tweaks
+Tag: role::developer
+Author: FoxfortMobile
+Name: libfoxfortutils
+
+Package: com.foxfort.lumi
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: FoxfortMobile
+Installed-Size: 10716
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.foxfort.foxforttools (>= 1.1.4)
+Filename: ./debs/com.foxfort.lumi_1.0.0_iphoneos-arm.deb
+Size: 2194416
+MD5sum: 800cf22c2b2ec4ec496908eeefb60035
+SHA1: 3c2c83cdfbcb857e6634bc815c90bb948b0910e9
+SHA256: 4f7ca12c81245ddd4b96e662b4277baa921cde4a8784b89a32665e278af2aeb9
+Section: Tweaks
+Description: Night mode camera for low light photography
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/lumisettings.bundle/icon@3x.png
+Name: Lumi
+
+Package: com.hackyouriphone.donjoeeshablolaguerradeipoveriringtone
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: iDevid <repo@hackyouriphone.org>
+Filename: ./debs/com.hackyouriphone.donjoeeshablolaguerradeipoveriringtone_1.0_iphoneos-arm.deb
+Size: 496584
+MD5sum: 1b1e5e06b56adcd76279b4af9ad9026c
+SHA1: 1d4cbf4ca1988b2e2469b74af3727b02f076ac69
+SHA256: 5a75dc65b99c84d92404baf8d8828b657bbef53f243c1b7094275a0865785fef
+Section: HYI - Ringtones
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=donjoeeshablolaguerradeipoveriringtone
+Description: Don Joe & Shablo - La guerra dei poveri
+Author: NightCervant <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=donjoeeshablolaguerradeipoveriringtone
+Name: Don Joe & Shablo - La guerra dei poveri Ringtone
+
+Package: com.linusyang.localeutf8
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 186
+Depends: profile.d
+Filename: ./debs/com.linusyang.localeutf8_1.0-1_iphoneos-arm.deb
+Size: 5448
+MD5sum: 44518f7af981fa092bc20a24976a0c7f
+SHA1: 45e005d644f4eff178e6eed37a9c1f76c35ac941
+SHA256: 6339ffcaf3e44f4c1e3821405032cfb961e0952940f8a1b76a357a9dbecdf548
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Description: UTF-8 locale files for en_US and zh_CN
+Tag: purpose::console, role::hacker
+Author: Linus Yang <laokongzi@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Dev: laokongzi
+Name: Locale Profiles in UTF-8
+
+Package: com.opa334.ccsupport
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 201
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2.2_iphoneos-arm.deb
+Size: 35410
+MD5sum: bedc14592047dfd4d98fd7118ade5cc2
+SHA1: f70e26d16dd5afe9576ee7801b9a4669d1077198
+SHA256: 0f3393ecbc3b4d0cf95f1a554aff9e113fd9a353006d96b8f8b8c7f55e6ce90f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.supermamon.newpackage
 Version: 2.0.0-1
 Architecture: iphoneos-arm
@@ -74,6 +247,102 @@ Description: This is a sample old package. Firmware should be lower than 7.0
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 Name: Old Package
+
+Package: com.unlimapps.gramplus
+Version: 1.8r-331
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus, com.jake0oo0.instabetter, com.insanj.savegram
+Filename: ./debs/com.unlimapps.gramplus_1.8r-331_iphoneos-arm.deb
+Size: 9603216
+MD5sum: f5540c2189bed84eef6daa28adae9da7
+SHA1: d09da3e91af211705d89779fa71d5ed2d36b9236
+SHA256: 7c0e2c3ff98bfa53763660b6595cc96e150a7d9f64ba4a736713725d7e39066a
+Section: Tweaks
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.gramplus/
+Description: Download & Copy Instagram media
+Tag: purpose::extension, ios7support::1, ios8support::1
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.gramplus/
+Dev: i4iphones
+Name: Instagram ++
+
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-94
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: com.unlimapps.uasharedtools.nostash | com.unlimapps.uasharedtools.stash
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-94_iphoneos-arm.deb
+Size: 672
+MD5sum: 61343b122411318868863f20160f0af0
+SHA1: 88614137ffa452d0afc8e726b8996f0d0603dec7
+SHA256: 2e60afd7ba17f1ed88bce107c0e5a8ba00b12335d9fdbd7b850802e9734c2a1d
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools
+
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-94
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/com.unlimapps.uasharedtools.nostash_2.2r-94_iphoneos-arm.deb
+Size: 19862136
+MD5sum: 77fe0e2f8ae8c223bf4e355005962968
+SHA1: 88d1120f6269d69fd151cd14008631769fd2d373
+SHA256: d76c3dae69ddcb5f60e2033f588cf8f8194cf54889392a9fc0b2fed65d088157
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools (iOS 11)
+
+Package: expat
+Version: 2.2.5-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 624
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debs/expat_2.2.5-1_iphoneos-arm.deb
+Size: 66922
+MD5sum: 57c44104876d363c27177d3f38bd8ec3
+SHA1: 8a67a2edd50ecab78ff55cae3eff76ed49ee3e3f
+SHA256: 76ea736fa770a728a0c7b2e2dc345fd2a6ec57bb86732562240d0fd137fe833b
+Section: Development
+Priority: standard
+Multi-Arch: foreign
+Description: stream-oriented XML parser written in C
+Name: XML Parser Toolkit
+
+Package: git
+Version: 2.20.0-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 55432
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, expat, libssl1.0
+Filename: ./debs/git_2.20.0-1_iphoneos-arm.deb
+Size: 3040194
+MD5sum: 5b53985552b7446fdf539d7dc40d6898
+SHA1: 84c795182683305fda24f5ceabee19a8e0ef30fa
+SHA256: 4b1074978cf7ed944055f25fa599f1641ec6eb3afcb9f4570c24bf5620e838b7
+Section: Data_Storage
+Priority: optional
+Description: fast content-addressable filesystem
+Name: Git
 
 Package: io.github.suntrackspb.BarcodeBrothers-ItsAFineDay.m4r
 Version: 1.0
@@ -139,6 +408,22 @@ Author: SunTrack <repo@ggbb.ws>
 Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Decl-Suchki.m4r
 Name: Decl-Suchki.m4r Ringtone
 
+Package: io.github.suntrackspb.Decl-Suchki.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.decl-suchki.m4r_1.0_iphoneos-arm.deb
+Size: 1017396
+MD5sum: 0b32ed9919e47df3c30e7675377c00a9
+SHA1: 88dcf26d7c1fe6bdc350db55df01509286cf9f98
+SHA256: a1272b4f9bdf1e97d757da30b1967f6bc2f50f412df36e8cfeb15283670bdcb9
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Decl-Suchki.m4r
+Description: Decl-Suchki.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Decl-Suchki.m4r
+Name: Decl-Suchki.m4r Ringtone
+
 Package: io.github.suntrackspb.Karandash-Suka.m4r
 Version: 1.0
 Architecture: iphoneos-arm
@@ -191,6 +476,22 @@ Package: io.github.suntrackspb.Recviem.m4r
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: SunTrack <repo@ggbb.ws>
+Filename: ./debs/io.github.suntrackspb.recviem.m4r_1.0_iphoneos-arm.deb
+Size: 429108
+MD5sum: cec67f4ad88d1f37736316f1761d4703
+SHA1: 90adbad9ed4dfe288208e68b1ebae7c8c67d538b
+SHA256: 8e2a558b146bbaa4d4c25690109bf0113778b8de1288f94ef3e1d2153cbca06c
+Section: Ringtones
+Homepage: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Recviem.m4r
+Description: Recviem.m4r
+Author: SunTrack <repo@ggbb.ws>
+Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Recviem.m4r
+Name: Recviem.m4r Ringtone
+
+Package: io.github.suntrackspb.Recviem.m4r
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: SunTrack <repo@ggbb.ws>
 Filename: ./debs/io.github.suntrackspb.Recviem.m4r.deb
 Size: 429108
 MD5sum: cec67f4ad88d1f37736316f1761d4703
@@ -202,6 +503,23 @@ Description: Recviem.m4r
 Author: SunTrack <repo@ggbb.ws>
 Depiction: https://suntrackspb.github.io/cydia/depiction/depiction.php?filename=Recviem.m4r
 Name: Recviem.m4r Ringtone
+
+Package: me.ahmedbafkir.dleasy
+Version: 2.10.2
+Architecture: iphoneos-arm
+Maintainer: AhmedBafkir <prooxy0@gmail.com>
+Installed-Size: 12080
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.2_iphoneos-arm.deb
+Size: 2051246
+MD5sum: 2e31c1f3e1c1a642c6f7c8d12602aaae
+SHA1: e0bd010c95f97c55f7dece23b9e3d2ec437f1073
+SHA256: 690a94ef3b9f277184d2685f63b81a4939079dab6da84a6de87c54df79739a0e
+Section: Tweaks
+Description: Download/Share images & videos from social apps easily!
+Author: AhmedBafkir <prooxy0@gmail.com>
+Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
+Name: DLEasy
 
 Package: nano
 Version: 4.5-1
@@ -218,6 +536,24 @@ SHA256: a174f328475b3c926c4074880cc1535873ed5ebb1b303c4aeeba38d4108306a9
 Section: Text_Editors
 Priority: standard
 Description: completely free, modern clone of Pico
+
+Package: prasa.instagramplus
+Version: 1.6.4
+Architecture: iphoneos-arm
+Maintainer: Prasa
+Installed-Size: 1484
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/prasa.instagramplus_1.6.4_iphoneos-arm.deb
+Size: 396474
+MD5sum: d2df3dee0d3e5c3456e763d38076c7c4
+SHA1: f68d0f860003a18d341457906e8acaa8bdb256ba
+SHA256: e5e0d8508824c7053d4b1c1aec6de49d58cf52ba3aeed684f54558a2e1ac1332
+Section: Tweaks
+Description: Your most complete Instagram tweak!
+Author: Prasa
+Depiction: https://repo.packix.com/package/prasa.instagramplus/
+Icon: https://i.postimg.cc/bvmtSz1L/icon.png
+Name: InstagramPlus
 
 Package: ru.rejail.adgpro
 Version: 0.0.1-2
@@ -890,4 +1226,69 @@ Depiction: https://rejail.ru/depiction.php?file=yobunpro
 Icon: icon.png
 Name: Yobun Pro
 Sileodepiction: https://rejail.ru/sileo/depiction.php?file=yobunpro
+
+Package: se.arweb.respringmodule
+Version: 1.1.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 162
+Depends: mobilesubstrate, com.opa334.ccsupport, firmware(>= 11.0)
+Filename: ./debs/se.arweb.respringmodule_1.1.3_iphoneos-arm.deb
+Size: 29124
+MD5sum: f9e9b5a28e10c68058578bb214b7bb31
+SHA1: 7ffbe07d8c3cd3d90084fb6f2872ea24b94da4d9
+SHA256: 2bf53dedf646e3a2fd5fd19235546aba66f0d6ca6d5955af7c3098de0de2559a
+Section: Addons (ControlCenter)
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringmoduleDp
+Description: A Control Center module that simply resprings your device!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: ARWeb <aggesoft@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringmoduleDp
+Dev: arweb
+Icon: file:///Library/ControlCenter/Bundles/RespringModule.bundle/SettingsIcon@3x.png
+Name: RespringModule
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: ws.hbang.common
+Version: 1.16
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2012
+Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.16_iphoneos-arm.deb
+Size: 237912
+MD5sum: 8e88f31a35e39e72ad670c8269a3630a
+SHA1: 0e100a44b977053deb2543317c2ccd4ff02ca3c8
+SHA256: b9691fec11afd5bb32fa7bae0efe5bea997566645ef9fe59f6c23f6b72ea3ea7
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Dev: hbang
+Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm2
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6792
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debs/ws.hbang.newterm2_2.4_iphoneos-arm.deb
+Size: 2183056
+MD5sum: 9de0a2d8c6b2cb9ddc5467cb8e51f54c
+SHA1: d35bebca9f64966f804b68203eb93d73e00decf6
+SHA256: 656946a2844b1fecfb4d3330f7463340d032724cb15313edfc1b3c3b898bfb97
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm (iOS 10 – 13)
+Support: https://hashbang.productions/support/
 
